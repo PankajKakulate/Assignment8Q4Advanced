@@ -18,6 +18,9 @@ export class AppComponent {
       if((event.keyCode>=65 && event.keyCode<=90) ){
         this.LenthCounter++;
        }
+       if((event.keyCode>=48 && event.keyCode<=57) ){
+        this.LenthCounter++;
+       }
       if(event.keyCode==8){
       if(this.LenthCounter!=0)
       this.LenthCounter--;
